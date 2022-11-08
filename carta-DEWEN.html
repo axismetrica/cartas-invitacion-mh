@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Style user CSS-->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!--ICON-->
+    <link rel="shortcut icon" href="assets/img/icon-pdf.png" type="image/x-icon" />
+
+    <title>Carta MH GESA</title>
+</head>
+<body>
+
+    <div class="mt-3 mb-4 d-flex justify-content-center">
+        <!-- <a href="javascript:window.print()"> Imprimir</a> -->
+        <button id="btnCrearPdf">Descargar PDF</button>
+    </div>
+
+    <!--CONTAINER BOX PAPER-->
+    <section class="container-paper" id="content-pdf">
+
+        
+        <!--HOJA 1-->
+        <div class="paper">
+            <div class="row">
+                <div class="col-6"><img src="assets/img/img-principal-top.png" id="img-prin-top"></div>
+                <div class="col-6 d-flex justify-content-end align-items-center"><img src="assets/img/logo-salud-int.png" id="logo"></div>
+            </div>
+
+            <!--CONTENIDO TEXT-->
+            <article class="box-content">
+
+                <h1>
+                    La membresía familiar de<br> descuentos médicos, líder en México.
+                </h1>
+
+                <div class="box-membresia">
+                    <div class="membresia">
+                        <img src="assets/img/logo-salud-int.png" id="logo">
+                        <!--DATOS CARD-->
+                        <article class="dat-card">
+                            <h5>
+                                <span id="nome-mem">Nombre de la membresía</span>
+                            </h5>
+                            <h5>
+                                <span id="vigencia-mem">Vigencia</span>
+                            </h5>
+                            <h5>
+                                Titular: <span id="titular-mem">...</span>
+                            </h5>
+                            <h5>
+                                <span id="number-mem">Número de la membresía</span>
+                            </h5>
+                        </article>
+                    </div>           
+                </div>
+
+                <p>
+                    Nos alegra que formes parte de la familia <b>MedicallHome</b>. Para nosotros es muy
+                    importante tu salud y por ello puedes estar seguro de que contarás con los mejores 
+                    servicios médicos: atención médica 24/7, asistencia nutricional y emocional,
+                    videoconferencias, consultas con médicos especialistas, descuentos en laboratorios,
+                    clínicas y hospitales, seguros, descuentos en establecimientos comerciales y mucho
+                    más.
+                    <br><br>
+                    No olvides que estaremos acompañándote en este proceso para que recibas el mejor servicio
+                    y juntos, cuidemos de tu salud y la de tu familia.
+                    <br><br>
+                    Lee cuidadosamente esta carta para que conozcas todos los beneficios a los que tienes
+                    derecho y ¡Aprovéchalos al máximo! Por favor si tienes cualquier pregunta, no dudes en
+                    llamarnos al <b>55 42.09.32.02</b>
+                    <br><br>
+                    <b>¡Estamos para servirte!</b><br>
+                    <i>Cordialmente</i>,<br>
+                    MedicalHome.
+                </p>
+
+            </article>
+            
+        </div>
+
+        <!--HOJA 2-->
+        <div class="paper">
+            <div class="row">
+                <div class="col-6"><img src="assets/img/banner-top.png" id="img-prin-top-2"></div>
+                <div class="col-6 pt-5 d-flex justify-content-end align-items-center"><img src="assets/img/logo-salud-int.png" id="logo-2"></div>
+            </div>
+
+            <!--CONTENIDO TEXT-->
+            <article class="box-content">
+
+            <h5 id="title">Asistencias Médicas</h5>    
+                <!--BOX CONTENT de Asistencias-->
+                <section class="box-asistencias">
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0">
+                                    <ul>
+                                        <li>Asistencia telefónica médica 24/7.</li>
+                                        <li>Asistencia nutricional telefónica.</li>
+                                        <li>Asistencia psicológica telefónica.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR FAMILIAR
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center">
+                            <ul>
+                                <li>Gratis y sin límite de eventos.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0">
+                                    <ul>
+                                        <li>Consultas médicas a domicilo.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR FAMILIAR
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center">
+                            <ul>
+                                <li>2 eventos anuales gratis hasta por $500 cada uno.</li>
+                                <li>Precios preferenciales, sin límite de eventos $500 cada uno.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0">
+                                    <ul>
+                                        <li>Consultas con médicos especialistas.</li>
+                                        <li>Referencias Médicas Telefónicas.</li>
+                                        <li>(Médicos, Especialistas, Hospitales,
+                                            Centros de Salud, Laboratorios).</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR FAMILIAR
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center">
+                            <ul>
+                                <li>Precios Preferenciales y sin límite de eventos.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0">
+                                    <ul>
+                                        <li>Check up.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center">
+                            <ul>
+                                <li>Gratis 1 evento por año.</li>
+                                <li>Incluye química sanguínea 3 elementos,
+                                    biometría hemática, examen general de orina, grupo
+                                    sanguíneo.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0">
+                                    <ul>
+                                        <li>Asistencia dental.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR FAMILIAR
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center">
+                            <ul>
+                                <li>Gratis 1 consulta y limpieza dental por año.</li>
+                                <li>Precios preferenciales en consulta y limpieza dental.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0">
+                                    <ul>
+                                        <li>Red de descuentos odontológicos en tratamientos
+                                            varios.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR FAMILIAR
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center">
+                            <ul>
+                                <li>Sin límite de eventos con costo preferencial.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0">
+                                    <ul>
+                                        <li>Asistencia visual (examen de la vista, decuento
+                                            en armazones).</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR FAMILIAR
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center ">
+                            <ul>
+                                <li>Sin límite de eventos con costo preferencial.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0">
+                                    <ul>
+                                        <li>Ambulancia terrestre por emergencia.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR FAMILIAR
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center">
+                            <ul>
+                                <li>Sin límite de eventos con costo preferencial.</li>
+                                <li>1 evento gratis por familia al año.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0 title-izq">
+                                    <ul>
+                                        <p>Asistencia vial</p>
+                                        <li>Arrastre de grúa por avería o falla.</li>
+                                        <li>Cambio de llanta.</li>
+                                        <li>Paso de corriente.</li>
+                                        <li>Abasto de gasolina.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center ">
+                            <ul>
+                                <li>1 evento hasta $1,500.</li>
+                                <li>1 evento hasta $500 en combinación.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0 title-izq">
+                                    <ul>
+                                        <p>Asistencia Hogar Tradicional</p>
+                                        <li>Servicio de cerrajería.</li>
+                                        <li>Servicio de plomería.</li>
+                                        <li>Servicio de electricidad.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center">
+                            <ul>
+                                <li>1 evento anual hasta por $500 en combinación.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items-final">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 d-flex align-items-center p-0 title-izq">
+                                    <ul>
+                                        <p>Red De Descuentos Comerciales</p>
+                                        <li>Red descuentos TDConsentido.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex align-items-center tipo">
+                                    <p>
+                                        TITULAR 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 observacion d-flex align-items-center">
+                            <ul>
+                                <li>Sin límite con costo prefeferencial.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+
+                <h5 id="title-2" class="pt-4">Coberturas de Seguro Para El Titular</h5>    
+                <!--BOX CONTENT de Asistencias-->
+                <section class="box-asistencias-2">
+    
+                    <!--ITEMS-->
+                    <div class="row items">
+                            <div class="col-8">
+                                <div class="row">
+                                    <div class="col-8 d-flex align-items-center p-0 title-izq">
+                                        <ul>
+                                            <p>Seguro de Accidentes</p>
+                                            <li>Muerte accidental.</li>
+                                            <li>Pérdida de miembros escala B.</li>
+                                            <li>Reembolso de gastos médicos por accidente.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4 d-flex align-items-center justify-content-center tipo-2">
+                                        <ul>
+                                            <p>Suma Asegurada</p>
+                                            <li>$400,000</li>
+                                            <li>$100,000</li>
+                                            <li>$30,000</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 observacion d-flex align-items-center">
+                                <ul>
+                                    <li>Edad de cobertura de 12 a 69 años.</li>
+                                    <li>Consulte condiciones generales.</li>
+                                </ul>
+                            </div>
+                    </div>
+
+                    <!--ITEMS-->
+                    <div class="row items">
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-8 d-flex align-items-center p-0 title-izq">
+                                    <ul>
+                                        <p>Seguro de Vida</p>
+                                        <li>Muerte natural o accidental.
+                                            (No aplican preexistencias).</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 d-flex align-items-center justify-content-center tipo-2">
+                                    <ul>
+                                        <p>Suma Asegurada</p>
+                                        <li>$100,000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 observacion d-flex align-items-center">
+                            <ul>
+                                <li>Edad de cobertura de 12 a 69 años.</li>
+                                <li>Consulte condiciones generales.</li>
+                            </ul>
+                        </div>
+                </div>
+
+                    <!--ITEMS-->
+                    <div class="row items-final">
+                            <div class="col-8">
+                                <div class="row">
+                                    <div class="col-12 d-flex align-items-center p-0 title-izq">
+                                        <ul>
+                                            <p>Servicio Funerario</p>
+                                            <li>Atención y asesoría personalizada en call center, gestoria
+                                                ante dependencias gubernamentales, arreglo estético del cuerpo,
+                                                capilla de velación o equipo de velación a domicilio, ataúd 
+                                                básico metálico, cremación con urna.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 observacion d-flex align-items-center">
+                                <ul>
+                                    <li>Edad de cobertura de cero a 69 años.</li>
+                                    <li>Aplica tiempo de espera de 90 días.</li>
+                                    <li>Aplican restricciones.</li>
+                                </ul>
+                            </div>
+                    </div>
+                </section>
+
+            </article>
+            
+            <div class="d-flex justify-content-center pt-4 pe-4 ps-4">
+                <img src="assets/img/banner-bottom.png" id="img-bottom">
+            </div>
+        </div>
+
+        <!--HOJA 3-->
+        <div class="paper">
+            <div class="row">
+                <div class="col-6"><img src="assets/img/banner-top.png" id="img-prin-top-2"></div>
+                <div class="col-6 pt-5 d-flex justify-content-end align-items-center"><img src="assets/img/logo-salud-int.png" id="logo-2"></div>
+            </div>
+
+            <!--CONTENIDO TEXT-->
+            <article class="box-content">
+
+                <h4 id="title-3">Guía de descarga para la <span>app</span></h4>
+                <!--DESCARGA de la APP-->
+                <div class="row pt-4">
+                    <div class="col-6">
+                        <div class="d-flex justify-content-end align-items-end">
+                            <img src="assets/img/code-qr-ios.png" class="img-qr pe-3">
+                            <img src="assets/img/icon-apple.png" class="logo-os">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex justify-content-start align-items-end">
+                            <img src="assets/img/code-qr-android.png" class="img-qr pe-3">
+                            <img src="assets/img/icon-android.png" class="logo-os">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Instalación de la app-->
+                <div class="row instru">
+                    <!--INSTRUCCION ITEMS-->
+                    <div class="col-3 p-0">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/img/phone-1.png" class="img-phone">
+                            <div class="pt-4 d-flex text-phone justify-content-center">
+                                <span>1</span>
+                                <p>Busca y descarga <b>MedicallHome</b> en iOS y Andorid</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--INSTRUCCION ITEMS-->
+                    <div class="col-3 p-0">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/img/phone-2.png" class="img-phone">
+                            <div class="pt-4 d-flex text-phone justify-content-center">
+                                <span>2</span>
+                                <p>
+                                    - Registra tu memebresía <b>MedicallHome</b><br>
+                                    - Email<br>
+                                    - Confirma tu email <br>
+                                    - Teléfono celular <br>
+                                    - Crea un PIN <b>(contraseña)</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--INSTRUCCION ITEMS-->
+                    <div class="col-3 p-0">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/img/phone-3.png" class="img-phone">
+                            <div class="pt-4 d-flex text-phone justify-content-center">
+                                <span>3</span>
+                                <p>
+                                    Inicia sesión con tu email y tu PIN <b>(contraseña)</b><br><br>
+                                    Guarda tu <b>usuario</b> y <b>contraseña</b> en un 
+                                    lugar seguro
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--INSTRUCCION ITEMS-->
+                    <div class="col-3 p-0">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/img/phone-4.png" class="img-phone">
+                            <div class="pt-4 d-flex text-phone justify-content-center">
+                                <span>4</span>
+                                <p>
+                                    <b>¡Listo!</b>Ya puedes disfrutar de tus
+                                    beneficios <b>MedicallHome:</b> atención médica,
+                                    descuento, promociones, gratuidades y mucho más.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <section class="despedida">
+                    <h4>
+                        Llámanos, estamos para apoyarte <br>
+                        <b>55 42.09.32.02</b> <br><br>
+
+                        <b>GRACIAS</b>
+                    </h4>
+                </section>
+
+            </article>
+            
+            <div class="d-flex justify-content-center pt-4 pe-4 ps-4">
+                <img src="assets/img/banner-bottom.png" id="img-bottom">
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--BOOTSTRAP JAVASCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--USER MAIN JAVASCRIPT-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- HTML2PDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+
+</body>
+</html>
